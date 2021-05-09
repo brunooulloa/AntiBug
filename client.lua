@@ -1,3 +1,7 @@
+---------------------------------
+-- Script creado por Soft#6666 --
+---------------------------------
+
 local bugeandopared = false
 local cerca = 1
 
@@ -32,3 +36,7 @@ Citizen.CreateThread(function()
 		end
 	end
 end)
+
+---------------------------------
+-- Script creado por Soft#6666 --
+---------------------------------
