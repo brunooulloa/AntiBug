@@ -12,7 +12,11 @@ AntiBug de disparos a traves de paredes | Shooting through walls AntiBug
 2. Put it in your `resources` directory
 3. Add `ensure soft_antibug` to your `server.cfg`
 4. Run the server!
- 
+
+## <ins>Dependency
+
+mythic_notify
+
 ## <ins>Author
 
 Made by Soft#6666
