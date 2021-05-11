@@ -22,8 +22,6 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(1)
-		local coords = GetEntityCoords(PlayerPedId(), true)
-		local dist = Vdist(coords, Config.zonas[cerca].x, Config.zonas[cerca].y, Config.zonas[cerca].z)
 		if bugeandopared == true then
 			if IsPedInCover(PlayerPedId(), true) then
 				DisablePlayerFiring(PlayerPedId(), true)
