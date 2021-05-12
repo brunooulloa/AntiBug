@@ -3,7 +3,6 @@
 ---------------------------------
 
 local bugeandopared = false
-local cerca = 1
 
 Citizen.CreateThread(function()
 	while true do
@@ -12,7 +11,6 @@ Citizen.CreateThread(function()
 			dist = Vdist(coords, Config.zonas[i].x, Config.zonas[i].y, Config.zonas[i].z)
 			if dist <= 0.5 then
 				bugeandopared = true
-				cerca = i
 			end
 		end
 		Citizen.Wait(3000)
