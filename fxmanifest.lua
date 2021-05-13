@@ -10,8 +10,4 @@ client_scripts {
 	'client.lua'
 }
 
-server_scripts {
-	'config.lua'
-}
-
 dependency 'mythic_notify'
