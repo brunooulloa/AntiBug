@@ -19,4 +19,4 @@ mythic_notify
 
 ## <ins>Author
 
-Made by Soft#6666
+Soft#6666
