@@ -20,7 +20,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(1)
-		if bugeandopared == true then
+		if bugeandopared then
 			if IsPedInCover(PlayerPedId(), true) then
 				DisablePlayerFiring(PlayerPedId(), true)
 				DisableControlAction(0, 25, true)
