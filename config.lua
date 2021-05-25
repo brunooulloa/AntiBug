@@ -6,7 +6,9 @@ Config = {}
 
 Config.dist = 0.5 -- Distancia entre el jugador y la zona de bug (default 0.5) | Distance between player and bug zone (default 0.5)
 
-Config.notif = 'No puedes apuntar ni disparar en este lugar' -- Texto para la notificacion al bugear pared | Text for nottification when wallbang bugging
+Config.notif = 'No puedes apuntar ni disparar en este lugar' -- Texto para la notificacion al bugear pared | Text for notification when wallbang bugging
+
+Config.mythic_name = 'mythic_notify' -- Nombre del recurso del mythic_notify | Name of mythic_notify resource
 
 Config.mythic_type = 'error' -- Tipo de notificacion utilizando mythic_notify | Notification type using mythic_notify
 

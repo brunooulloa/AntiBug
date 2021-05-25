@@ -26,7 +26,7 @@ Citizen.CreateThread(function()
 				DisableControlAction(0, 25, true)
 				DisableControlAction(0, 106, true)
 				if IsDisabledControlJustPressed(0, 25) or IsDisabledControlJustPressed(0, 106) then
-					exports['mythic_notify']:DoHudText(Config.mythic_type, Config.notif)
+					exports[Config.mythic_name]:DoHudText(Config.mythic_type, Config.notif)
 				end
 			end
 		end
