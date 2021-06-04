@@ -15,8 +15,8 @@ AntiBug de disparos a traves de paredes | Shooting through walls AntiBug
 
 ## <ins>Dependency
 
-mythic_notify
+`mythic_notify`
 
 ## <ins>Author
 
-Soft#6666
+`Soft#6666`
