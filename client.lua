@@ -22,11 +22,13 @@ Citizen.CreateThread(function()
 		Citizen.Wait(1)
 		if bugeandopared then
 			if IsPedInCover(PlayerPedId(), true) then
-				DisablePlayerFiring(PlayerPedId(), true)
-				DisableControlAction(0, 25, true)
-				DisableControlAction(0, 106, true)
-				if IsDisabledControlJustPressed(0, 25) or IsDisabledControlJustPressed(0, 106) then
-					exports[Config.mythic_name]:DoHudText(Config.mythic_type, Config.notif)
+				if IsPedArmed(PlayerPedId(), 7) then
+					DisablePlayerFiring(PlayerPedId(), true)
+					DisableControlAction(0, 25, true)
+					DisableControlAction(0, 106, true)
+					if IsDisabledControlJustPressed(0, 25) or IsDisabledControlJustPressed(0, 106) then
+						exports[Config.mythic_name]:DoHudText(Config.mythic_type, Config.notif)
+					end
 				end
 			end
 		end
