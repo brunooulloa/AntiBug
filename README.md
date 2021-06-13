@@ -9,9 +9,10 @@ AntiBug de disparos a traves de paredes | Shooting through walls AntiBug
 ## <ins>Installation (Basically plug and play)
 
 1. Download resource from repository
-2. Put it in your `resources` directory
-3. Add `ensure soft_antibug` to your `server.cfg`
-4. Run the server!
+2. Remove `-master` suffix from resource folder
+3. Put it in your `resources` directory
+4. Add `ensure Soft-AntiBug` to your `server.cfg`
+5. Run the server!
 
 ## <ins>Dependency
 
