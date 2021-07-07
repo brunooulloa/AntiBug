@@ -4,7 +4,7 @@ AntiBug de disparos a traves de paredes | Shooting through walls AntiBug
 
 ## <ins>Preview
 ![preview](https://media.discordapp.net/attachments/815773776645980211/815774750147346462/unknown.png?width=660&height=343)
-![preview](https://media.discordapp.net/attachments/815773776645980211/815774868179386480/unknown.png)
+![preview](https://media.discordapp.net/attachments/855431655660716077/862191843961733120/unknown.png)
 
 ## <ins>Installation (Basically plug and play)
 
