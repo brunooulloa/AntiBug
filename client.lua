@@ -35,15 +35,6 @@ Citizen.CreateThread(function()
 	end
 end)
 
-Citizen.CreateThread(function()
-	while true do
-		Citizen.Wait(0)
-		for k, v in pairs() do
-			
-		end
-	end
-end)
-
 ---------------------------------
 -- Script creado por Soft#6666 --
 ---------------------------------
