@@ -7,9 +7,9 @@ local bugeandopared = false
 Citizen.CreateThread(function()
 	while true do
 		local coords = GetEntityCoords(PlayerPedId(), true)
-		for k, v in pairs(Config.zonas) do
-			dist = Vdist(coords, Config.zonas[i].x, Config.zonas[i].y, Config.zonas[i].z)
-			if dist <= Config.dist then
+		for k, v in pairs(Config['zonas']) do
+			dist = Vdist(coords, Config['zonas'][k].x, Config['zonas'][k].y, Config['zonas'][k].z)
+			if dist <= Config['dist'] then
 				bugeandopared = true
 			end
 		end
@@ -27,7 +27,7 @@ Citizen.CreateThread(function()
 					DisableControlAction(0, 25, true)
 					DisableControlAction(0, 106, true)
 					if IsDisabledControlJustPressed(0, 25) or IsDisabledControlJustPressed(0, 106) then
-						exports[Config.mythic_name]:DoHudText(Config.mythic_type, Config.notif)
+						exports[Config['mythic_name']]:DoHudText(Config['mythic_type'], Config['notif'])
 					end
 				end
 			end
