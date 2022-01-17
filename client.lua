@@ -8,7 +8,7 @@ Citizen.CreateThread(function()
 	while true do
 		local coords = GetEntityCoords(PlayerPedId(), true)
 		for k, v in pairs(Config['zonas']) do
-			dist = Vdist(coords, Config['zonas'][k].x, Config['zonas'][k].y, Config['zonas'][k].z)
+			dist = Vdist2(coords, Config['zonas'][k].x, Config['zonas'][k].y, Config['zonas'][k].z)
 			if dist <= Config['dist'] then
 				bugeandopared = true
 			end
